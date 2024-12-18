@@ -1,0 +1,29 @@
+#функция делит два числа 
+def numbers_sum(a, b):
+    return a / b 
+print(numbers_sum(1, 2))
+#функция делает из заглавных букв строчные
+def str_low(int_str):
+    return int_str.lower()
+a = 'HELLO, WORLD!'
+b = str_low(a)
+print(b)
+#разворачивает список 
+def sorting_list(lt):
+    return lt.reverse()
+s = [1, 5, 6, 7, 8]
+sorting_list(s)
+print(s)
+#добовляет элементы в словарь
+def dict_upd(dictionary):
+    return dictionary.update({'v':3})
+new = {'g':1}
+dict_upd(new)
+print(new)
+#пишет элементы в сете и кортежах вразнобой 
+def cunt(stturple):
+    return len(stturple)
+ag = {'j', 'g', 't', 'k'}
+cunt(ag)
+print(ag)
+    
